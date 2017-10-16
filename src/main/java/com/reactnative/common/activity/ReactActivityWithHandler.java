@@ -2,20 +2,20 @@ package com.reactnative.common.activity;
 
 import android.content.Intent;
 
-import com.facebook.infer.annotation.Functional;
+//import com.facebook.infer.annotation.Functional;
 import com.facebook.react.ReactActivity;
-import com.facebook.react.modules.core.PermissionListener;
+//import com.facebook.react.modules.core.PermissionListener;
 
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.*;
+//import java.util.*;
 
 
 /**
  * Created by ronnieren on 8/30/17.
  */
 
-public class ReactActivityWithHandler extends ReactActivity {
+public abstract class ReactActivityWithHandler extends ReactActivity {
     private ArrayList<ActivityHandler> activityHandlers = new ArrayList<ActivityHandler>();
 
     @Override
