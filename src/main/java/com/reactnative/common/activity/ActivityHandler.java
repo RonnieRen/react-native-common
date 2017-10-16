@@ -1,4 +1,4 @@
-package com.reactnative.common;
+package com.reactnative.common.activity;
 
 
 /**
